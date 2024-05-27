@@ -1,0 +1,3772 @@
+|FA_str_tb3
+
+
+|FA_str_tb3|Carry_select_adder:FA
+c_out <= mux1bit:mux2.carry
+sum[0] <= FA32b:FA1.sum
+sum[1] <= FA32b:FA1.sum
+sum[2] <= FA32b:FA1.sum
+sum[3] <= FA32b:FA1.sum
+sum[4] <= FA32b:FA1.sum
+sum[5] <= FA32b:FA1.sum
+sum[6] <= FA32b:FA1.sum
+sum[7] <= FA32b:FA1.sum
+sum[8] <= FA32b:FA1.sum
+sum[9] <= FA32b:FA1.sum
+sum[10] <= FA32b:FA1.sum
+sum[11] <= FA32b:FA1.sum
+sum[12] <= FA32b:FA1.sum
+sum[13] <= FA32b:FA1.sum
+sum[14] <= FA32b:FA1.sum
+sum[15] <= FA32b:FA1.sum
+sum[16] <= FA32b:FA1.sum
+sum[17] <= FA32b:FA1.sum
+sum[18] <= FA32b:FA1.sum
+sum[19] <= FA32b:FA1.sum
+sum[20] <= FA32b:FA1.sum
+sum[21] <= FA32b:FA1.sum
+sum[22] <= FA32b:FA1.sum
+sum[23] <= FA32b:FA1.sum
+sum[24] <= FA32b:FA1.sum
+sum[25] <= FA32b:FA1.sum
+sum[26] <= FA32b:FA1.sum
+sum[27] <= FA32b:FA1.sum
+sum[28] <= FA32b:FA1.sum
+sum[29] <= FA32b:FA1.sum
+sum[30] <= FA32b:FA1.sum
+sum[31] <= FA32b:FA1.sum
+sum[32] <= mux32bit:mux.carry
+sum[33] <= mux32bit:mux.carry
+sum[34] <= mux32bit:mux.carry
+sum[35] <= mux32bit:mux.carry
+sum[36] <= mux32bit:mux.carry
+sum[37] <= mux32bit:mux.carry
+sum[38] <= mux32bit:mux.carry
+sum[39] <= mux32bit:mux.carry
+sum[40] <= mux32bit:mux.carry
+sum[41] <= mux32bit:mux.carry
+sum[42] <= mux32bit:mux.carry
+sum[43] <= mux32bit:mux.carry
+sum[44] <= mux32bit:mux.carry
+sum[45] <= mux32bit:mux.carry
+sum[46] <= mux32bit:mux.carry
+sum[47] <= mux32bit:mux.carry
+sum[48] <= mux32bit:mux.carry
+sum[49] <= mux32bit:mux.carry
+sum[50] <= mux32bit:mux.carry
+sum[51] <= mux32bit:mux.carry
+sum[52] <= mux32bit:mux.carry
+sum[53] <= mux32bit:mux.carry
+sum[54] <= mux32bit:mux.carry
+sum[55] <= mux32bit:mux.carry
+sum[56] <= mux32bit:mux.carry
+sum[57] <= mux32bit:mux.carry
+sum[58] <= mux32bit:mux.carry
+sum[59] <= mux32bit:mux.carry
+sum[60] <= mux32bit:mux.carry
+sum[61] <= mux32bit:mux.carry
+sum[62] <= mux32bit:mux.carry
+sum[63] <= mux32bit:mux.carry
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+a[32] => a[32].IN2
+a[33] => a[33].IN2
+a[34] => a[34].IN2
+a[35] => a[35].IN2
+a[36] => a[36].IN2
+a[37] => a[37].IN2
+a[38] => a[38].IN2
+a[39] => a[39].IN2
+a[40] => a[40].IN2
+a[41] => a[41].IN2
+a[42] => a[42].IN2
+a[43] => a[43].IN2
+a[44] => a[44].IN2
+a[45] => a[45].IN2
+a[46] => a[46].IN2
+a[47] => a[47].IN2
+a[48] => a[48].IN2
+a[49] => a[49].IN2
+a[50] => a[50].IN2
+a[51] => a[51].IN2
+a[52] => a[52].IN2
+a[53] => a[53].IN2
+a[54] => a[54].IN2
+a[55] => a[55].IN2
+a[56] => a[56].IN2
+a[57] => a[57].IN2
+a[58] => a[58].IN2
+a[59] => a[59].IN2
+a[60] => a[60].IN2
+a[61] => a[61].IN2
+a[62] => a[62].IN2
+a[63] => a[63].IN2
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+b[32] => b[32].IN2
+b[33] => b[33].IN2
+b[34] => b[34].IN2
+b[35] => b[35].IN2
+b[36] => b[36].IN2
+b[37] => b[37].IN2
+b[38] => b[38].IN2
+b[39] => b[39].IN2
+b[40] => b[40].IN2
+b[41] => b[41].IN2
+b[42] => b[42].IN2
+b[43] => b[43].IN2
+b[44] => b[44].IN2
+b[45] => b[45].IN2
+b[46] => b[46].IN2
+b[47] => b[47].IN2
+b[48] => b[48].IN2
+b[49] => b[49].IN2
+b[50] => b[50].IN2
+b[51] => b[51].IN2
+b[52] => b[52].IN2
+b[53] => b[53].IN2
+b[54] => b[54].IN2
+b[55] => b[55].IN2
+b[56] => b[56].IN2
+b[57] => b[57].IN2
+b[58] => b[58].IN2
+b[59] => b[59].IN2
+b[60] => b[60].IN2
+b[61] => b[61].IN2
+b[62] => b[62].IN2
+b[63] => b[63].IN2
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1
+c_out <= FA16b:FA2.c_out
+sum[0] <= FA16b:FA.sum
+sum[1] <= FA16b:FA.sum
+sum[2] <= FA16b:FA.sum
+sum[3] <= FA16b:FA.sum
+sum[4] <= FA16b:FA.sum
+sum[5] <= FA16b:FA.sum
+sum[6] <= FA16b:FA.sum
+sum[7] <= FA16b:FA.sum
+sum[8] <= FA16b:FA.sum
+sum[9] <= FA16b:FA.sum
+sum[10] <= FA16b:FA.sum
+sum[11] <= FA16b:FA.sum
+sum[12] <= FA16b:FA.sum
+sum[13] <= FA16b:FA.sum
+sum[14] <= FA16b:FA.sum
+sum[15] <= FA16b:FA.sum
+sum[16] <= FA16b:FA2.sum
+sum[17] <= FA16b:FA2.sum
+sum[18] <= FA16b:FA2.sum
+sum[19] <= FA16b:FA2.sum
+sum[20] <= FA16b:FA2.sum
+sum[21] <= FA16b:FA2.sum
+sum[22] <= FA16b:FA2.sum
+sum[23] <= FA16b:FA2.sum
+sum[24] <= FA16b:FA2.sum
+sum[25] <= FA16b:FA2.sum
+sum[26] <= FA16b:FA2.sum
+sum[27] <= FA16b:FA2.sum
+sum[28] <= FA16b:FA2.sum
+sum[29] <= FA16b:FA2.sum
+sum[30] <= FA16b:FA2.sum
+sum[31] <= FA16b:FA2.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA1|FA16b:FA2|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2
+c_out <= FA16b:FA2.c_out
+sum[0] <= FA16b:FA.sum
+sum[1] <= FA16b:FA.sum
+sum[2] <= FA16b:FA.sum
+sum[3] <= FA16b:FA.sum
+sum[4] <= FA16b:FA.sum
+sum[5] <= FA16b:FA.sum
+sum[6] <= FA16b:FA.sum
+sum[7] <= FA16b:FA.sum
+sum[8] <= FA16b:FA.sum
+sum[9] <= FA16b:FA.sum
+sum[10] <= FA16b:FA.sum
+sum[11] <= FA16b:FA.sum
+sum[12] <= FA16b:FA.sum
+sum[13] <= FA16b:FA.sum
+sum[14] <= FA16b:FA.sum
+sum[15] <= FA16b:FA.sum
+sum[16] <= FA16b:FA2.sum
+sum[17] <= FA16b:FA2.sum
+sum[18] <= FA16b:FA2.sum
+sum[19] <= FA16b:FA2.sum
+sum[20] <= FA16b:FA2.sum
+sum[21] <= FA16b:FA2.sum
+sum[22] <= FA16b:FA2.sum
+sum[23] <= FA16b:FA2.sum
+sum[24] <= FA16b:FA2.sum
+sum[25] <= FA16b:FA2.sum
+sum[26] <= FA16b:FA2.sum
+sum[27] <= FA16b:FA2.sum
+sum[28] <= FA16b:FA2.sum
+sum[29] <= FA16b:FA2.sum
+sum[30] <= FA16b:FA2.sum
+sum[31] <= FA16b:FA2.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA2|FA16b:FA2|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3
+c_out <= FA16b:FA2.c_out
+sum[0] <= FA16b:FA.sum
+sum[1] <= FA16b:FA.sum
+sum[2] <= FA16b:FA.sum
+sum[3] <= FA16b:FA.sum
+sum[4] <= FA16b:FA.sum
+sum[5] <= FA16b:FA.sum
+sum[6] <= FA16b:FA.sum
+sum[7] <= FA16b:FA.sum
+sum[8] <= FA16b:FA.sum
+sum[9] <= FA16b:FA.sum
+sum[10] <= FA16b:FA.sum
+sum[11] <= FA16b:FA.sum
+sum[12] <= FA16b:FA.sum
+sum[13] <= FA16b:FA.sum
+sum[14] <= FA16b:FA.sum
+sum[15] <= FA16b:FA.sum
+sum[16] <= FA16b:FA2.sum
+sum[17] <= FA16b:FA2.sum
+sum[18] <= FA16b:FA2.sum
+sum[19] <= FA16b:FA2.sum
+sum[20] <= FA16b:FA2.sum
+sum[21] <= FA16b:FA2.sum
+sum[22] <= FA16b:FA2.sum
+sum[23] <= FA16b:FA2.sum
+sum[24] <= FA16b:FA2.sum
+sum[25] <= FA16b:FA2.sum
+sum[26] <= FA16b:FA2.sum
+sum[27] <= FA16b:FA2.sum
+sum[28] <= FA16b:FA2.sum
+sum[29] <= FA16b:FA2.sum
+sum[30] <= FA16b:FA2.sum
+sum[31] <= FA16b:FA2.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2
+c_out <= FA4b:FA4.c_out
+sum[0] <= FA4b:FA.sum
+sum[1] <= FA4b:FA.sum
+sum[2] <= FA4b:FA.sum
+sum[3] <= FA4b:FA.sum
+sum[4] <= FA4b:FA2.sum
+sum[5] <= FA4b:FA2.sum
+sum[6] <= FA4b:FA2.sum
+sum[7] <= FA4b:FA2.sum
+sum[8] <= FA4b:FA3.sum
+sum[9] <= FA4b:FA3.sum
+sum[10] <= FA4b:FA3.sum
+sum[11] <= FA4b:FA3.sum
+sum[12] <= FA4b:FA4.sum
+sum[13] <= FA4b:FA4.sum
+sum[14] <= FA4b:FA4.sum
+sum[15] <= FA4b:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA2
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA2|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA2|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA2|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA2|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA3
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA3|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA3|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA3|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA3|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA4
+c_out <= FA_str_gate:FA4.c_out
+sum[0] <= FA_str_gate:FA.sum
+sum[1] <= FA_str_gate:FA2.sum
+sum[2] <= FA_str_gate:FA3.sum
+sum[3] <= FA_str_gate:FA4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA4|FA_str_gate:FA
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA4|FA_str_gate:FA2
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA4|FA_str_gate:FA3
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|FA32b:FA3|FA16b:FA2|FA4b:FA4|FA_str_gate:FA4
+c_out <= or2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= or1.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+a => and4.IN0
+a => and5.IN0
+a => and7.IN0
+a => and2.IN0
+a => and3.IN0
+b => and2.IN1
+b => and4.IN1
+b => and6.IN0
+b => and7.IN1
+b => and1.IN1
+b => and3.IN1
+c_in => and3.IN2
+c_in => and4.IN2
+c_in => and5.IN1
+c_in => and6.IN1
+c_in => and1.IN2
+c_in => and2.IN2
+
+
+|FA_str_tb3|Carry_select_adder:FA|mux32bit:mux
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+select => carry.OUTPUTSELECT
+a[0] => carry.DATAA
+a[1] => carry.DATAA
+a[2] => carry.DATAA
+a[3] => carry.DATAA
+a[4] => carry.DATAA
+a[5] => carry.DATAA
+a[6] => carry.DATAA
+a[7] => carry.DATAA
+a[8] => carry.DATAA
+a[9] => carry.DATAA
+a[10] => carry.DATAA
+a[11] => carry.DATAA
+a[12] => carry.DATAA
+a[13] => carry.DATAA
+a[14] => carry.DATAA
+a[15] => carry.DATAA
+a[16] => carry.DATAA
+a[17] => carry.DATAA
+a[18] => carry.DATAA
+a[19] => carry.DATAA
+a[20] => carry.DATAA
+a[21] => carry.DATAA
+a[22] => carry.DATAA
+a[23] => carry.DATAA
+a[24] => carry.DATAA
+a[25] => carry.DATAA
+a[26] => carry.DATAA
+a[27] => carry.DATAA
+a[28] => carry.DATAA
+a[29] => carry.DATAA
+a[30] => carry.DATAA
+a[31] => carry.DATAA
+b[0] => carry.DATAB
+b[1] => carry.DATAB
+b[2] => carry.DATAB
+b[3] => carry.DATAB
+b[4] => carry.DATAB
+b[5] => carry.DATAB
+b[6] => carry.DATAB
+b[7] => carry.DATAB
+b[8] => carry.DATAB
+b[9] => carry.DATAB
+b[10] => carry.DATAB
+b[11] => carry.DATAB
+b[12] => carry.DATAB
+b[13] => carry.DATAB
+b[14] => carry.DATAB
+b[15] => carry.DATAB
+b[16] => carry.DATAB
+b[17] => carry.DATAB
+b[18] => carry.DATAB
+b[19] => carry.DATAB
+b[20] => carry.DATAB
+b[21] => carry.DATAB
+b[22] => carry.DATAB
+b[23] => carry.DATAB
+b[24] => carry.DATAB
+b[25] => carry.DATAB
+b[26] => carry.DATAB
+b[27] => carry.DATAB
+b[28] => carry.DATAB
+b[29] => carry.DATAB
+b[30] => carry.DATAB
+b[31] => carry.DATAB
+carry[0] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[1] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[2] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[3] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[4] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[5] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[6] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[7] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[8] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[9] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[10] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[11] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[12] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[13] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[14] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[15] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[16] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[17] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[18] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[19] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[20] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[21] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[22] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[23] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[24] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[25] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[26] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[27] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[28] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[29] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[30] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+carry[31] <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FA_str_tb3|Carry_select_adder:FA|mux1bit:mux2
+select => carry.OUTPUTSELECT
+a => carry.DATAA
+b => carry.DATAB
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FA_str_tb3|Verification_64bit:Verification
+c_out <= _.SUM_OUT
+sum[0] <= _.SUM_OUT
+sum[1] <= _.SUM_OUT
+sum[2] <= _.SUM_OUT
+sum[3] <= _.SUM_OUT
+sum[4] <= _.SUM_OUT
+sum[5] <= _.SUM_OUT
+sum[6] <= _.SUM_OUT
+sum[7] <= _.SUM_OUT
+sum[8] <= _.SUM_OUT
+sum[9] <= _.SUM_OUT
+sum[10] <= _.SUM_OUT
+sum[11] <= _.SUM_OUT
+sum[12] <= _.SUM_OUT
+sum[13] <= _.SUM_OUT
+sum[14] <= _.SUM_OUT
+sum[15] <= _.SUM_OUT
+sum[16] <= _.SUM_OUT
+sum[17] <= _.SUM_OUT
+sum[18] <= _.SUM_OUT
+sum[19] <= _.SUM_OUT
+sum[20] <= _.SUM_OUT
+sum[21] <= _.SUM_OUT
+sum[22] <= _.SUM_OUT
+sum[23] <= _.SUM_OUT
+sum[24] <= _.SUM_OUT
+sum[25] <= _.SUM_OUT
+sum[26] <= _.SUM_OUT
+sum[27] <= _.SUM_OUT
+sum[28] <= _.SUM_OUT
+sum[29] <= _.SUM_OUT
+sum[30] <= _.SUM_OUT
+sum[31] <= _.SUM_OUT
+sum[32] <= _.SUM_OUT
+sum[33] <= _.SUM_OUT
+sum[34] <= _.SUM_OUT
+sum[35] <= _.SUM_OUT
+sum[36] <= _.SUM_OUT
+sum[37] <= _.SUM_OUT
+sum[38] <= _.SUM_OUT
+sum[39] <= _.SUM_OUT
+sum[40] <= _.SUM_OUT
+sum[41] <= _.SUM_OUT
+sum[42] <= _.SUM_OUT
+sum[43] <= _.SUM_OUT
+sum[44] <= _.SUM_OUT
+sum[45] <= _.SUM_OUT
+sum[46] <= _.SUM_OUT
+sum[47] <= _.SUM_OUT
+sum[48] <= _.SUM_OUT
+sum[49] <= _.SUM_OUT
+sum[50] <= _.SUM_OUT
+sum[51] <= _.SUM_OUT
+sum[52] <= _.SUM_OUT
+sum[53] <= _.SUM_OUT
+sum[54] <= _.SUM_OUT
+sum[55] <= _.SUM_OUT
+sum[56] <= _.SUM_OUT
+sum[57] <= _.SUM_OUT
+sum[58] <= _.SUM_OUT
+sum[59] <= _.SUM_OUT
+sum[60] <= _.SUM_OUT
+sum[61] <= _.SUM_OUT
+sum[62] <= _.SUM_OUT
+sum[63] <= _.SUM_OUT
+a[0] => _.DATAD
+a[1] => _.DATAD
+a[2] => _.DATAD
+a[3] => _.DATAD
+a[4] => _.DATAD
+a[5] => _.DATAD
+a[6] => _.DATAD
+a[7] => _.DATAD
+a[8] => _.DATAD
+a[9] => _.DATAD
+a[10] => _.DATAD
+a[11] => _.DATAD
+a[12] => _.DATAD
+a[13] => _.DATAD
+a[14] => _.DATAD
+a[15] => _.DATAD
+a[16] => _.DATAD
+a[17] => _.DATAD
+a[18] => _.DATAD
+a[19] => _.DATAD
+a[20] => _.DATAD
+a[21] => _.DATAD
+a[22] => _.DATAD
+a[23] => _.DATAD
+a[24] => _.DATAD
+a[25] => _.DATAD
+a[26] => _.DATAD
+a[27] => _.DATAD
+a[28] => _.DATAD
+a[29] => _.DATAD
+a[30] => _.DATAD
+a[31] => _.DATAD
+a[32] => _.DATAD
+a[33] => _.DATAD
+a[34] => _.DATAD
+a[35] => _.DATAD
+a[36] => _.DATAD
+a[37] => _.DATAD
+a[38] => _.DATAD
+a[39] => _.DATAD
+a[40] => _.DATAD
+a[41] => _.DATAD
+a[42] => _.DATAD
+a[43] => _.DATAD
+a[44] => _.DATAD
+a[45] => _.DATAD
+a[46] => _.DATAD
+a[47] => _.DATAD
+a[48] => _.DATAD
+a[49] => _.DATAD
+a[50] => _.DATAD
+a[51] => _.DATAD
+a[52] => _.DATAD
+a[53] => _.DATAD
+a[54] => _.DATAD
+a[55] => _.DATAD
+a[56] => _.DATAD
+a[57] => _.DATAD
+a[58] => _.DATAD
+a[59] => _.DATAD
+a[60] => _.DATAD
+a[61] => _.DATAD
+a[62] => _.DATAD
+a[63] => _.DATAD
+b[0] => _.DATAC
+b[1] => _.DATAC
+b[2] => _.DATAC
+b[3] => _.DATAC
+b[4] => _.DATAC
+b[5] => _.DATAC
+b[6] => _.DATAC
+b[7] => _.DATAC
+b[8] => _.DATAC
+b[9] => _.DATAC
+b[10] => _.DATAC
+b[11] => _.DATAC
+b[12] => _.DATAC
+b[13] => _.DATAC
+b[14] => _.DATAC
+b[15] => _.DATAC
+b[16] => _.DATAC
+b[17] => _.DATAC
+b[18] => _.DATAC
+b[19] => _.DATAC
+b[20] => _.DATAC
+b[21] => _.DATAC
+b[22] => _.DATAC
+b[23] => _.DATAC
+b[24] => _.DATAC
+b[25] => _.DATAC
+b[26] => _.DATAC
+b[27] => _.DATAC
+b[28] => _.DATAC
+b[29] => _.DATAC
+b[30] => _.DATAC
+b[31] => _.DATAC
+b[32] => _.DATAC
+b[33] => _.DATAC
+b[34] => _.DATAC
+b[35] => _.DATAC
+b[36] => _.DATAC
+b[37] => _.DATAC
+b[38] => _.DATAC
+b[39] => _.DATAC
+b[40] => _.DATAC
+b[41] => _.DATAC
+b[42] => _.DATAC
+b[43] => _.DATAC
+b[44] => _.DATAC
+b[45] => _.DATAC
+b[46] => _.DATAC
+b[47] => _.DATAC
+b[48] => _.DATAC
+b[49] => _.DATAC
+b[50] => _.DATAC
+b[51] => _.DATAC
+b[52] => _.DATAC
+b[53] => _.DATAC
+b[54] => _.DATAC
+b[55] => _.DATAC
+b[56] => _.DATAC
+b[57] => _.DATAC
+b[58] => _.DATAC
+b[59] => _.DATAC
+b[60] => _.DATAC
+b[61] => _.DATAC
+b[62] => _.DATAC
+b[63] => _.DATAC
+c_in => _.DATAB
+
+
